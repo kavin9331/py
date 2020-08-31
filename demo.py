@@ -1,34 +1,8 @@
-import random 
-  
-# using random() to generate a random number 
-# between 0 and 1 
-print ("A random number between 0 and 1 is : ", end="") 
-print (random.random()) 
-  
-# using seed() to seed a random number 
-random.seed(5) 
-  
-# printing mapped random number 
-print ("The mapped random number with 5 is : ", end="") 
-print (random.random()) 
-  
-# using seed() to seed different random number 
-random.seed(7) 
-  
-# printing mapped random number 
-print ("The mapped random number with 7 is : ", end="") 
-print (random.random()) 
-  
-# using seed() to seed to 5 again 
-random.seed(5) 
-  
-# printing mapped random number 
-print ("The mapped random number with 5 is : ",end="") 
-print (random.random()) 
-  
-# using seed() to seed to 7 again  
-random.seed(7) 
-  
-# printing mapped random number 
-print ("The mapped random number with 7 is : ",end="") 
-print (random.random()) 
+def printinfo( name, age ):
+   "This prints a passed info into this function"
+   print "Name: ", name
+   print "Age ", age
+   return;
+
+# Now you can call printinfo function
+printinfo( age=50, name="miki" )

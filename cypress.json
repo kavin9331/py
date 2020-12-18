@@ -1,0 +1,7 @@
+{
+    "includeShadowDom": true ,
+    "experimentalNetworkStubbing": true,
+    "reporter": "mochawesome",
+    "projectId": "b3hu2v"
+
+  }
